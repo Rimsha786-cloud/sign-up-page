@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e90ff, #ff69b4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.signup-container {
+    background-color: #2c3e50;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff69b4;
+}
+
+header p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+/* Form Styles */
+.signup-form {
+    text-align: left;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 0.9em;
+    color: #ff69b4;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    margin-top: 5px;
+    background-color: #34495e;
+    color: #fff;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #ff69b4;
+}
+
+/* Redirect Styles */
+.login-redirect {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.login-redirect a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.login-redirect a:hover {
+    text-decoration: underline;
+}
